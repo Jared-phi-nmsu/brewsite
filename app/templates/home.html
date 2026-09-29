@@ -3,5 +3,8 @@
 {% block main %}
 <p>Welcome to the brewsite page!</p>
 <p> {{ user }}</p>
-
+<p>Our Team!</p>
+<img src="{{ url_for('static', filename='images/peasant.png') }}" alt="W3 Peasant"> <!-- https://classic.battle.net/war3/human/units/peasant.shtml -->
+<img src="{{ url_for('static', filename='images/paladin.png') }}" alt="W3 Paladin"> <!-- # https://classic.battle.net/war3/human/units/paladin.shtml -->
+<img src="{{ url_for('static', filename='images/archmage.png') }}" alt="W3 Archmage"> <!-- # https://classic.battle.net/war3/human/units/archmage.shtml -->
 {% endblock main %}
